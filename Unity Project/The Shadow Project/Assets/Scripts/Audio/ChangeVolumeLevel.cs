@@ -7,34 +7,43 @@ public class ChangeVolumeLevel : MonoBehaviour
 {
 
     public Slider thisSlider;
-    public float musicVolume;
+    [Header("Slider Values During Runtime")]
+    public float masterVolume;
     public float ambVolume;
     public float sfxVolume;
+    public float uiVolume;
 
 
     public void SetVolume(string whatValue)
     {
         float sliderValue = thisSlider.value;
 
-        if (whatValue == "Music")
+        if (whatValue == "Master")
         {
-            Debug.Log("Changed Music level to:" +  thisSlider.value);
-            musicVolume = thisSlider.value;
-            AkSoundEngine.SetRTPCValue("MusicVolume", musicVolume); // tell wwise to set RTPC value to match the value of musicVolume
+            Debug.Log("Changed Master level to:" +  thisSlider.value);
+            masterVolume = thisSlider.value;
+            AkSoundEngine.SetRTPCValue("vol_master", masterVolume); // tell wwise to set RTPC value to match the value of masterVolume's slider
         }
 
         if (whatValue == "Ambience")
         {
-            Debug.Log("Changed Music level to:" + thisSlider.value);
+            Debug.Log("Changed Ambience level to:" + thisSlider.value);
             ambVolume = thisSlider.value;
-            AkSoundEngine.SetRTPCValue("AmbVolume", ambVolume);
+            AkSoundEngine.SetRTPCValue("vol_ambience", ambVolume);
         }
 
         if (whatValue == "SFX")
         {
-            Debug.Log("Changed Music level to:" + thisSlider.value);
+            Debug.Log("Changed SFX level to:" + thisSlider.value);
             sfxVolume = thisSlider.value;
-            AkSoundEngine.SetRTPCValue("SFXVolume", sfxVolume);
+            AkSoundEngine.SetRTPCValue("vol_sfx", sfxVolume);
+        }
+
+        if (whatValue == "UI")
+        {
+            Debug.Log("Changed UI level to:" + thisSlider.value);
+            uiVolume = thisSlider.value;
+            AkSoundEngine.SetRTPCValue("vol_UI", uiVolume);
         }
 
 

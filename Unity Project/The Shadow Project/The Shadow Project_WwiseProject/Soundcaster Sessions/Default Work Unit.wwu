@@ -79,7 +79,23 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="vol_sfx" ID="{654E149A-67A6-4598-BC66-7932FBAA8317}"/>
+							<Value>90</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="player_health" ID="{DA3BE5BE-BE05-477E-8DAB-098B5E6F8019}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="vol_ambience" ID="{C3AA294E-7B5E-4A22-9E02-226ECC249229}"/>
+							<Value>90</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="vol_UI" ID="{B8B5DDE6-43AF-4D1B-BDDE-668AFA2B560D}"/>
+							<Value>84.321223709369</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="vol_master" ID="{1DDFEA94-CE95-4F85-92B0-21E808C751C4}"/>
 							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
@@ -90,17 +106,7 @@
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Hits" ID="{652A01C6-05FD-447C-A51A-68E0364610B5}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="Item_Type" ID="{1B230FDA-B2D3-4D68-8B0C-1F9AE7E0B3CD}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true">
-						<RTPCValue>
-							<GameParameterRef Name="vol_music" ID="{E5E4F827-A9B1-44AE-81AC-181039C39AC7}"/>
-							<Value>100</Value>
-						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="vol_sfx" ID="{654E149A-67A6-4598-BC66-7932FBAA8317}"/>
 							<Value>90</Value>
@@ -111,7 +117,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="vol_UI" ID="{B8B5DDE6-43AF-4D1B-BDDE-668AFA2B560D}"/>
-							<Value>55.6556556556557</Value>
+							<Value>90</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="vol_master" ID="{1DDFEA94-CE95-4F85-92B0-21E808C751C4}"/>
@@ -150,7 +156,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="vol_ambience" ID="{C3AA294E-7B5E-4A22-9E02-226ECC249229}"/>
-							<Value>90</Value>
+							<Value>80</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

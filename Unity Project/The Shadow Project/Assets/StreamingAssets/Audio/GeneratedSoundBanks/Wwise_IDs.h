@@ -22,6 +22,11 @@ namespace AK
         static const AkUniqueID OBJECT_HIT_PLAYER = 2405462070U;
         static const AkUniqueID TEST_EVENT = 4258653052U;
         static const AkUniqueID UI_ATTACKINDICATORS = 3483086956U;
+        static const AkUniqueID UI_MENUCONFIRM = 2952321297U;
+        static const AkUniqueID UI_MENUDECLINE = 39102871U;
+        static const AkUniqueID UI_MENUHOVER = 672280371U;
+        static const AkUniqueID UI_MENUPAUSE = 2693200891U;
+        static const AkUniqueID UI_MENURESUME = 743252578U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -62,7 +67,6 @@ namespace AK
         static const AkUniqueID PLAYER_HEALTH = 215992295U;
         static const AkUniqueID VOL_AMBIENCE = 2442501159U;
         static const AkUniqueID VOL_MASTER = 3391499625U;
-        static const AkUniqueID VOL_MUSIC = 1004648580U;
         static const AkUniqueID VOL_SFX = 3273357900U;
         static const AkUniqueID VOL_UI = 2747843521U;
     } // namespace GAME_PARAMETERS

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D6D78069-5456-C2A7-05EA-DF7BF8246FCB}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{34AA3C92-BBC4-60A5-F1CE-4C67A06EDAC8}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -61,7 +61,6 @@
 			<GameParameters>
 				<GameParameter Id="180621091" Name="ghost_health"/>
 				<GameParameter Id="215992295" Name="player_health"/>
-				<GameParameter Id="1004648580" Name="vol_music"/>
 				<GameParameter Id="2442501159" Name="vol_ambience"/>
 				<GameParameter Id="2747843521" Name="vol_UI"/>
 				<GameParameter Id="3273357900" Name="vol_sfx"/>
@@ -106,7 +105,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E497AA01-3963-8AD9-CAA6-2FEF10463C57}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{703992C5-26DF-03CB-211F-5D23562C0DD9}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -116,7 +115,7 @@
 				</File>
 				<File Id="27527349" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drip_11.wav</ShortName>
-					<CachePath>SFX/env_os_drip_11_8479D0C1.wem</CachePath>
+					<CachePath>SFX/env_os_drip_11_F857F61A.wem</CachePath>
 				</File>
 				<File Id="39339345" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drop_05.wav</ShortName>
@@ -133,6 +132,10 @@
 				<File Id="86030250" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drop_04.wav</ShortName>
 					<CachePath>SFX/env_os_drop_04_0D1EB3D6.wem</CachePath>
+				</File>
+				<File Id="87994597" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ui_hover.wav</ShortName>
+					<CachePath>SFX/ui_hover_0D1EB3D6.wem</CachePath>
 				</File>
 				<File Id="93618431" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>card_L_02.wav</ShortName>
@@ -175,9 +178,13 @@
 					<ShortName>env_os_squeak_03.wav</ShortName>
 					<CachePath>SFX/env_os_squeak_03_0D1EB3D6.wem</CachePath>
 				</File>
+				<File Id="183005371" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>420713-Card-Game-UI-Button-Light-Reverb-01.wav</ShortName>
+					<CachePath>SFX/420713-Card-Game-UI-Button-Light-Reverb-01_4EDC788B.wem</CachePath>
+				</File>
 				<File Id="199084632" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drip_03.wav</ShortName>
-					<CachePath>SFX/env_os_drip_03_85E51ECF.wem</CachePath>
+					<CachePath>SFX/env_os_drip_03_4751507B.wem</CachePath>
 				</File>
 				<File Id="199535482" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_squeak_01.wav</ShortName>
@@ -197,7 +204,7 @@
 				</File>
 				<File Id="242372728" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drip_05.wav</ShortName>
-					<CachePath>SFX/env_os_drip_05_89CCB1DB.wem</CachePath>
+					<CachePath>SFX/env_os_drip_05_4A90BDF7.wem</CachePath>
 				</File>
 				<File Id="245547960" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_rats_07.wav</ShortName>
@@ -205,7 +212,7 @@
 				</File>
 				<File Id="246542449" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drip_08.wav</ShortName>
-					<CachePath>SFX/env_os_drip_08_A673B6E7.wem</CachePath>
+					<CachePath>SFX/env_os_drip_08_B36E3032.wem</CachePath>
 				</File>
 				<File Id="254467704" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>env_loop_wind_02.wav</ShortName>
@@ -218,11 +225,11 @@
 				</File>
 				<File Id="288069432" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drip_14.wav</ShortName>
-					<CachePath>SFX/env_os_drip_14_78DE94A9.wem</CachePath>
+					<CachePath>SFX/env_os_drip_14_3CD2E567.wem</CachePath>
 				</File>
 				<File Id="317098858" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drip_04.wav</ShortName>
-					<CachePath>SFX/env_os_drip_04_07091519.wem</CachePath>
+					<CachePath>SFX/env_os_drip_04_A85A8896.wem</CachePath>
 				</File>
 				<File Id="366896990" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>520458-CANDLE_DROP_4.wav</ShortName>
@@ -272,6 +279,10 @@
 					<ShortName>202398-EFX_INT_Face_Body_Punch_Clean_01.wav</ShortName>
 					<CachePath>SFX/202398-EFX_INT_Face_Body_Punch_Clean_01_0EB49552.wem</CachePath>
 				</File>
+				<File Id="499268670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ui_close.wav</ShortName>
+					<CachePath>SFX/ui_close_21033020.wem</CachePath>
+				</File>
 				<File Id="510925398" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>46162-FOLEY_CANDLE_DROP_ON_CARPET_01.wav</ShortName>
 					<CachePath>SFX/46162-FOLEY_CANDLE_DROP_ON_CARPET_01_6A350D6E.wem</CachePath>
@@ -286,7 +297,7 @@
 				</File>
 				<File Id="569721524" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drip_12.wav</ShortName>
-					<CachePath>SFX/env_os_drip_12_328A82AA.wem</CachePath>
+					<CachePath>SFX/env_os_drip_12_E05C0F68.wem</CachePath>
 				</File>
 				<File Id="581889273" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_squeak_04.wav</ShortName>
@@ -318,7 +329,7 @@
 				</File>
 				<File Id="671445628" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drip_06.wav</ShortName>
-					<CachePath>SFX/env_os_drip_06_A74DFC55.wem</CachePath>
+					<CachePath>SFX/env_os_drip_06_3B3C9BCB.wem</CachePath>
 				</File>
 				<File Id="688012886" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_rats_09.wav</ShortName>
@@ -334,11 +345,11 @@
 				</File>
 				<File Id="710637024" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drip_07.wav</ShortName>
-					<CachePath>SFX/env_os_drip_07_4EA9A4B9.wem</CachePath>
+					<CachePath>SFX/env_os_drip_07_6E8EB027.wem</CachePath>
 				</File>
 				<File Id="726460796" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drip_01.wav</ShortName>
-					<CachePath>SFX/env_os_drip_01_8C2AA68D.wem</CachePath>
+					<CachePath>SFX/env_os_drip_01_00788109.wem</CachePath>
 				</File>
 				<File Id="728308374" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>205744-EFX_EXT_Metal_Bat_on_Heel_03.wav</ShortName>
@@ -353,17 +364,25 @@
 					<ShortName>env_os_drop_08.wav</ShortName>
 					<CachePath>SFX/env_os_drop_08_0D1EB3D6.wem</CachePath>
 				</File>
+				<File Id="742552211" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ui_confirm.wav</ShortName>
+					<CachePath>SFX/ui_confirm_0D1EB3D6.wem</CachePath>
+				</File>
 				<File Id="765011205" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_squeak_07.wav</ShortName>
 					<CachePath>SFX/env_os_squeak_07_0D1EB3D6.wem</CachePath>
 				</File>
 				<File Id="800735671" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drip_09.wav</ShortName>
-					<CachePath>SFX/env_os_drip_09_03D3A559.wem</CachePath>
+					<CachePath>SFX/env_os_drip_09_45C82D49.wem</CachePath>
 				</File>
 				<File Id="801632121" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_squeak_05.wav</ShortName>
 					<CachePath>SFX/env_os_squeak_05_E986E1C0.wem</CachePath>
+				</File>
+				<File Id="808333296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>420713-Card-Game-UI-Button-Light-Reverb-01.wav</ShortName>
+					<CachePath>SFX/420713-Card-Game-UI-Button-Light-Reverb-01_278730E3.wem</CachePath>
 				</File>
 				<File Id="811915102" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>env_loop_cellar.wav</ShortName>
@@ -421,7 +440,7 @@
 				</File>
 				<File Id="942686366" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drip_15.wav</ShortName>
-					<CachePath>SFX/env_os_drip_15_2134601D.wem</CachePath>
+					<CachePath>SFX/env_os_drip_15_9025FBC3.wem</CachePath>
 				</File>
 				<File Id="951544368" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>env_loop_gaspipes.wav</ShortName>
@@ -430,7 +449,7 @@
 				</File>
 				<File Id="957139814" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drip_02.wav</ShortName>
-					<CachePath>SFX/env_os_drip_02_249759C4.wem</CachePath>
+					<CachePath>SFX/env_os_drip_02_D504EA9F.wem</CachePath>
 				</File>
 				<File Id="960745466" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drop_03.wav</ShortName>
@@ -442,7 +461,7 @@
 				</File>
 				<File Id="970781876" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drip_10.wav</ShortName>
-					<CachePath>SFX/env_os_drip_10_72AB967E.wem</CachePath>
+					<CachePath>SFX/env_os_drip_10_4C0B636B.wem</CachePath>
 				</File>
 				<File Id="973742346" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>202398-EFX_INT_Face_Body_Punch_Clean_01.wav</ShortName>
@@ -478,7 +497,7 @@
 				</File>
 				<File Id="1052128372" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_os_drip_13.wav</ShortName>
-					<CachePath>SFX/env_os_drip_13_C3E02EFE.wem</CachePath>
+					<CachePath>SFX/env_os_drip_13_3C33A11E.wem</CachePath>
 				</File>
 				<File Id="1054259990" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>card_sm_03.wav</ShortName>
@@ -681,6 +700,31 @@
 						<AuxBusRef Id="1919201456" Name="UI_fx"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="2952321297" Name="UI_MenuConfirm" DurationType="OneShot" DurationMin="0.20389584" DurationMax="0.20389584">
+					<MediaRefs>
+						<MediaRef Id="742552211"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="39102871" Name="UI_MenuDecline" DurationType="OneShot" DurationMin="0.16904166" DurationMax="0.16904166">
+					<MediaRefs>
+						<MediaRef Id="499268670"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="672280371" Name="UI_MenuHover" DurationType="OneShot" DurationMin="0.1361875" DurationMax="0.1361875">
+					<MediaRefs>
+						<MediaRef Id="87994597"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2693200891" Name="UI_MenuPause" DurationType="OneShot" DurationMin="1.0256803" DurationMax="1.0256803">
+					<MediaRefs>
+						<MediaRef Id="808333296"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="743252578" Name="UI_MenuResume" DurationType="OneShot" DurationMin="0.8763068" DurationMax="0.8763068">
+					<MediaRefs>
+						<MediaRef Id="183005371"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="1281648863" Name="item_type">
@@ -704,5 +748,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{79F59F86-EEDB-42B7-164F-2E5FF773D0E3}</FileHash>
+	<FileHash>{DD4DE49B-D979-D886-0878-A12FBD7E8BBB}</FileHash>
 </SoundBanksInfo>

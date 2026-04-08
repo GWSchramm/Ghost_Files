@@ -328,6 +328,61 @@
 						</Event>
 						<Event Name="UI_AttackIndicatorM" ID="{D3D34853-353F-43C9-842F-E8DE866A9D9C}"/>
 						<Event Name="UI_AttackIndicatorL" ID="{481D5A4E-3B58-4CC2-9785-4EBB78A66EC9}"/>
+						<Event Name="UI_MenuConfirm" ID="{AD3F1F2E-911A-4A33-87C4-700C45111B7D}">
+							<ChildrenList>
+								<Action Name="" ID="{62AFF839-AC60-4F6D-9D77-E595150AC901}" ShortID="384509008">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ui_menu_confirm" ID="{D375C394-9464-4266-8E22-346D23C8E580}" WorkUnitID="{B962D48D-8DAA-4C05-BACA-1C09989032AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_MenuDecline" ID="{602FD53D-0059-4940-98F6-94E3814D4E78}">
+							<ChildrenList>
+								<Action Name="" ID="{5A265F35-2BF0-4AE5-BB00-3D706FB163AD}" ShortID="323626472">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ui_menu_decline" ID="{54F0DA5E-1701-41B5-B56D-52055CCC9B77}" WorkUnitID="{B962D48D-8DAA-4C05-BACA-1C09989032AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_MenuHover" ID="{ABA7FE00-0CE1-4AAB-938A-22300BDA377A}">
+							<ChildrenList>
+								<Action Name="" ID="{12990FF9-A81A-4B97-A300-CBFCE880EF14}" ShortID="8825075">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ui_menu_hover" ID="{C5588943-E38A-4C72-8CF4-D99C1481ABF3}" WorkUnitID="{B962D48D-8DAA-4C05-BACA-1C09989032AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_MenuPause" ID="{32E711AA-2E36-4C43-837B-DBCF5ED5AC96}">
+							<ChildrenList>
+								<Action Name="" ID="{7A0FAFE9-97C7-47DE-9E84-BC4D15FC146C}" ShortID="616974797">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ui_menu_pause" ID="{E353206F-44A1-4A9F-ADE3-754D6B63727A}" WorkUnitID="{B962D48D-8DAA-4C05-BACA-1C09989032AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_MenuResume" ID="{0ECDF593-8DB6-48D6-89FD-FBAA5C2ECFEC}">
+							<ChildrenList>
+								<Action Name="" ID="{ED2D942E-65CE-4556-B10B-8289BDA750B3}" ShortID="14669601">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ui_menu_unpause" ID="{7AF1A309-6899-4F35-88AF-62BC0D5FD922}" WorkUnitID="{B962D48D-8DAA-4C05-BACA-1C09989032AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

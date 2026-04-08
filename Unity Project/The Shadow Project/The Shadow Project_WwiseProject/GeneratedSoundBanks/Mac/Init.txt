@@ -1,13 +1,12 @@
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	215992295	player_health			\Default Work Unit\Health\player_health	
-	1004648580	vol_music			\Default Work Unit\Settings\vol_music	
 	2442501159	vol_ambience			\Default Work Unit\Settings\vol_ambience	
 	2747843521	vol_UI			\Default Work Unit\Settings\vol_UI	
 	3273357900	vol_sfx			\Default Work Unit\Settings\vol_sfx	
 	3391499625	vol_master			\Default Work Unit\Settings\vol_master	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	85412153	Ambience			\Default Work Unit\Master Audio Bus\World\Ambience	
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\World\SFX	
 	838047381	Non-World			\Default Work Unit\Master Audio Bus\Non-World	
 	1069431850	Player			\Default Work Unit\Master Audio Bus\World\Player	
@@ -19,8 +18,8 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	591668312	objects_fx			\Default Work Unit\Master Audio Bus\World\objects_fx	
-	1802038219	env_fx			\Default Work Unit\Master Audio Bus\World\env_fx	
+	591668312	objects_fx			\Default Work Unit\Master Audio Bus\World\Objects\objects_fx	
+	1802038219	env_fx			\Default Work Unit\Master Audio Bus\Ambience\env_fx	
 	1919201456	UI_fx			\Default Work Unit\Master Audio Bus\Non-World\UI\UI_fx	
 
 Effect plug-ins	ID	Name	Type				Notes
